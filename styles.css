@@ -280,11 +280,13 @@ p {
 }
 
 h1 {
-  margin-bottom: 22px;
-  font-size: clamp(3.1rem, 4.35vw, 5.45rem);
-  line-height: 0.94;
-  letter-spacing: -0.075em;
-  max-width: 15ch;
+    margin-bottom: 22px;
+    font-family: "Manrope", sans-serif;
+    font-size: clamp(3.1rem, 4.35vw, 5.45rem);
+    font-weight: 400;
+    line-height: 1.15;
+    letter-spacing: -0.025em;
+    max-width: 15ch;
 }
 
 .lead,
@@ -887,8 +889,8 @@ h1 {
     margin: -10px 0 0px !important;
     padding: 0;
     font-size: clamp(2.45rem, 10.8vw, 3.25rem);
-    line-height: 0.94;
-    letter-spacing: -0.07em;
+    line-height: 1.15;
+    letter-spacing: -0.025em;
   }
 
   /* Imagen */
